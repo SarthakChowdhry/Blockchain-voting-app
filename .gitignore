@@ -1,0 +1,16 @@
+blockchain/node_modules
+frontend/node_modules
+
+# blockchain
+blockchain/dist
+blockchain/bundle
+blockchain/artifacts
+blockchain/cache
+blockchain/types
+.env
+.env.*
+!.env.example
+blockchain/coverage
+blockchain/ignition/deployments
+blockchain/.gas-snapshot
+blockchain/snapshots
