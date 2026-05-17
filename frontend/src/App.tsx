@@ -1,12 +1,7 @@
-import "./App.css";
-
 import { useEffect, useState } from "react";
 import { cast_vote, getCandidates, getWinner, pClient, wClient } from "./eth";
 import { Button } from "./components/ui/button";
 import Vote_Config from "../../blockchain/artifacts/contracts/Vote.sol/Vote.json";
-
-// cast_vote(1);
-
 
 export default function App() {
   const [Canditates, setCanditates] = useState<Array<{name:string, count:bigint}>>([]);
